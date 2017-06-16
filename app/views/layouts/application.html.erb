@@ -12,7 +12,19 @@
   <%= render "layouts/header" %>
   <div class="container">
     <%= yield %>
-    <%= image_tag "cucina.jpg" %>
+
+    
+  </div>
+  <div class="row">
+  <div class="col-md-4">
+      <%= image_tag "cucina.jpg" %>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag("cafe.jpg", alt: "nice espresso in Italy") %>
+    </div>
+    <div class="col-md-4">
+      <%= image_tag "bifteca.jpg" %>
+    </div>
   </div>
 
   </body>
