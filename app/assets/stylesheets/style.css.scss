@@ -11,7 +11,11 @@ h3{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	background-color: lightgrey;
 }
 .flex-item{
 	width: 300px;
+	flex: 1 1 auto;
+	margin: 20px;
+	background-color: darkgrey;
 }
