@@ -20,6 +20,12 @@ test:
   <<: *default
   database: db/stukdo1_test
 
-production:
-  <<: *default
-  database: db/stukdo1_production
+production: 
+  adapter: postgresql
+  database: todoism
+  encoding: utf8
+  min_messages: warning
+  pool: 5
+  timeout: 5000
+
+ 
